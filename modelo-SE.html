@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função SE</title>
+</head>
+<body>
+    <h1>FUNÇÃO SE SIMPLES E COMPOSTA</h1>
+    <div id="resultado"></div>
+
+    <script>
+        let idade = prompt("Qual é a sua idade?");
+        let retorno = "";
+        if (idade >= 18) {
+            retorno = "Maior";  
+        } else {
+            retorno = "Menor";  
+        }  
+        
+        document.getElementById("resultado").innerHTML = retorno + " de idade.";
+
+    </script>
+
+
+</body>
+</html>
